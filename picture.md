@@ -7,4 +7,4 @@
 
 # header
 
-<img src="young-bearded-man-with-striped-shirt.jpg"  width="600" height="300">
+<img src="young-bearded-man-with-striped-shirt.jpg"  width="100" height="100">
