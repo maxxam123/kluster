@@ -1,5 +1,5 @@
 // +k8s:deepcopy-gen=package
 // +k8s:defaulter-gen=TypeMeta
-// +groupName=viveksingh.dev
+// +groupName=max.dev
 
 package v1alpha1
