@@ -6,21 +6,23 @@ import (
 
 // +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
+
 type Kluster struct {
 	metav1.TypeMeta
 	metav1.ObjectMeta
 
-	Spec KlusterSpec
+	Spec   KlusterSpec
 }
 
 type KlusterSpec struct {
-	Name	string
-	Org	string
+	Name        string
+	Org         string
 }
 
+// +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 type KlusterList struct {
 	metav1.TypeMeta
-	metav1.ObjectMeta
+	metav1.ListMeta
 
 	Items []Kluster
 }
