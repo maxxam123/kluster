@@ -5,5 +5,4 @@
 test
 
 |table-one|table-two|
-|---------------|-------------|
 |text-one|text-two|
